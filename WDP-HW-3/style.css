@@ -1,0 +1,197 @@
+body{
+	background: #FFFFFF;
+
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#main_container{
+    width:1148px;
+    height:654px;
+
+}         
+
+#head1{
+    width: 273px;
+    height: 118px;
+    left:0px;
+    top: 0px;
+    position: absolute;
+    background-color:#F775F6;
+    text-align: center;
+	
+}
+#head2{
+    width: 1074px;
+    height: 118px;
+    right:0px;
+    top: 0px;
+    position: absolute;
+    background-color:#D542DD;
+    text-align: center;
+	
+}
+#head2 marquee{
+	font-size:30px;
+	font-family:arial;
+	color:#000000;
+	text-align:center;
+	width:800px;
+	margin:0 auto;
+	padding:40px;
+	font-style: italic;
+}                  
+#menu{
+    width: 100%;
+    height: 60px;
+    left:0px;
+    top: 120px;
+    position: absolute;
+    background-color:#29E1D3;
+    text-align: center
+}
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#menu li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+#menu li:last-child {
+  border-right: none;
+}
+
+#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 21px 28px;
+  text-decoration: none;
+}
+#menu li a:hover {
+  background-color: #00FFFF;
+  color: #000000;
+}
+
+#menu .active {
+  background-color: #4CAF50;
+}
+#sBarLeft{
+    width: 290px;
+    height:390px;
+    left: 0px;
+    top: 182px;
+    position: absolute;
+    background-color:#EBDE31;
+    text-align: center;
+	float: left;
+}
+#sBarLeft p{
+    font-size:20px;
+    font-family:arial;
+    color:#000000;
+    text-align:center;
+    width:300px;
+    margin:0 auto;
+    padding:20px;
+}
+
+
+
+#content{
+    width: 763px;
+    height:390px;
+    left: 293px;
+    top: 182px;
+    position: absolute;
+    background-color:#0E6FD5;
+    text-align: center;
+	  float: left;
+}
+#content li{
+	font-size:20px;
+	font-family:arial;
+	color:#000000;
+	text-align:center;
+	width:600px;
+	margin:0 auto;
+	padding:10px;
+	
+}
+#content p{
+  font-size:20px;
+  font-family:arial;
+  color:#000000;
+  text-align:center;
+  width:600px;
+  margin:0 auto;
+  padding:10px;
+  
+}
+     
+#sBarRight{
+    width: 291px;
+    height:390px;
+    right: 0px;
+    top: 182px;
+    position: absolute;
+    background-color: #11D36A ;
+    text-align: center;
+	float: right;
+}
+#sBarRight p{
+	font-size:20px;
+	font-family:arial;
+	color:#000000;
+	text-align:center;
+	width:200px;
+	margin:0 auto;
+	padding:10px;
+}                  
+#footer{
+    width: 1056px;
+    height:80px;
+    left: 0px;
+    top: 574px;
+    position: absolute;
+    background-color:#718E05;
+    text-align: center;
+}
+#footer p{
+	font-size:17px;
+	font-family:arial;
+	color:#FF0000;
+	text-align:center;
+	width:300px;
+	margin: 0 auto;
+	padding:30px;
+	float: left;
+}                    
+#icon{
+    width: 291px;
+    height:80px;
+    right: 0px;
+    top: 574px;
+    position: absolute;
+    background-color:#32960F;
+    text-align: center;
+}
+#icon p{
+	padding: 32px;
+	font-size:arial;
+	color: #93080A
+	
+}
+
+   
+    
+    
+    
